@@ -1,0 +1,8 @@
+{
+  "name": "p8hAppTest",
+  "version": "1.0.0",
+  "description": "Test p8hApp",
+  "main": "index.js",
+  "author": "xiangqian <xli@pier88health.com>",
+  "license": "MIT"
+}
