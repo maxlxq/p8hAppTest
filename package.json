@@ -1,8 +1,23 @@
 {
   "name": "p8hAppTest",
   "version": "1.0.0",
+  "private": true,
   "description": "Test p8hApp",
   "main": "index.js",
   "author": "xiangqian <xli@pier88health.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "wd": "^1.12.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/runtime": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "jasmine": "^3.5.0",
+    "jest": "^26.0.1",
+    "metro-react-native-babel-preset": "^0.59.0"
+  }
 }
