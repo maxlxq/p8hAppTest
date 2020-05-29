@@ -1,0 +1,56 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 1,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1589794098743,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "login test"
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at _callee4$ (/Users/maxlxq/WebstormProjects/p8hAppTest/__tests__/test_one.js:29:71)\n    at tryCatch (/Users/maxlxq/WebstormProjects/p8hAppTest/node_modules/regenerator-runtime/runtime.js:45:40)\n    at Generator.invoke [as _invoke] (/Users/maxlxq/WebstormProjects/p8hAppTest/node_modules/regenerator-runtime/runtime.js:274:22)\n    at Generator.prototype.<computed> [as next] (/Users/maxlxq/WebstormProjects/p8hAppTest/node_modules/regenerator-runtime/runtime.js:97:21)\n    at tryCatch (/Users/maxlxq/WebstormProjects/p8hAppTest/node_modules/regenerator-runtime/runtime.js:45:40)\n    at invoke (/Users/maxlxq/WebstormProjects/p8hAppTest/node_modules/regenerator-runtime/runtime.js:135:20)\n    at /Users/maxlxq/WebstormProjects/p8hAppTest/node_modules/regenerator-runtime/runtime.js:145:13\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+          ],
+          "fullName": "login test login:visitor login",
+          "location": null,
+          "status": "failed",
+          "title": "login:visitor login"
+        }
+      ],
+      "endTime": 1589794122405,
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mlogin test › login:visitor login\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32mtrue\u001b[39m\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 27 | \u001b[39m  it(\u001b[32m'login:visitor login'\u001b[39m\u001b[33m,\u001b[39m async () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 28 | \u001b[39m    \u001b[90m// const hasVisitorLogin = await driver.hasElementByAccessibilityId('visitor_login')\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 29 | \u001b[39m    expect(await driver\u001b[33m.\u001b[39mhasElementByAccessibilityId(\u001b[32m'visitor_login'\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                                                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 30 | \u001b[39m      \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 31 | \u001b[39m    )\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 | \u001b[39m    await driver\u001b[33m.\u001b[39melementByAccessibilityId(\u001b[32m'visitor_login'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m.\u001b[39msleep(\u001b[35m5000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat _callee4$ (\u001b[22m\u001b[2m\u001b[0m\u001b[36m__tests__/test_one.js\u001b[39m\u001b[0m\u001b[2m:29:71)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat tryCatch (\u001b[22m\u001b[2mnode_modules/regenerator-runtime/runtime.js\u001b[2m:45:40)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Generator.invoke [as _invoke] (\u001b[22m\u001b[2mnode_modules/regenerator-runtime/runtime.js\u001b[2m:274:22)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Generator.prototype.<computed> [as next] (\u001b[22m\u001b[2mnode_modules/regenerator-runtime/runtime.js\u001b[2m:97:21)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat tryCatch (\u001b[22m\u001b[2mnode_modules/regenerator-runtime/runtime.js\u001b[2m:45:40)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat invoke (\u001b[22m\u001b[2mnode_modules/regenerator-runtime/runtime.js\u001b[2m:135:20)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[22m\u001b[2mnode_modules/regenerator-runtime/runtime.js\u001b[2m:145:13\u001b[22m\u001b[2m\u001b[22m\n",
+      "name": "/Users/maxlxq/WebstormProjects/p8hAppTest/__tests__/test_one.js",
+      "startTime": 1589794099374,
+      "status": "failed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}
