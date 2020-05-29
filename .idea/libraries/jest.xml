@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="jest" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/__tests__/test_one.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/__tests__/test_one.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
