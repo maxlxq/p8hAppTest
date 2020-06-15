@@ -7,7 +7,8 @@
   "author": "xiangqian <xli@pier88health.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test index": "jest index.spec.js --outputFile=result.json --json --coverage"
   },
   "dependencies": {
     "wd": "^1.12.1"
